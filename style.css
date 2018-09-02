@@ -4,11 +4,6 @@ body {
   /* --- */
   background-color: white;
   font-family: sans-serif; }
-  body img[data-img] {
-    filter: blur(10px);
-    transition: filter 1s; }
-    body img[data-img].loaded {
-      filter: blur(0px); }
   body .background {
     z-index: -1;
     background-color: #fafafa;
